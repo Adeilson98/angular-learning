@@ -7,13 +7,13 @@ import { CategoryFormComponent } from './category-form/category-form.component';
 
 
 @NgModule({
+  imports: [
+    CommonModule,
+    CategoriesRoutingModule
+  ],
   declarations: [
     CategoryListComponent,
     CategoryFormComponent
   ],
-  imports: [
-    CommonModule,
-    CategoriesRoutingModule
-  ]
 })
 export class CategoriesModule { }
